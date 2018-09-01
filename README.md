@@ -9,3 +9,7 @@ Lets have the demo in the url [Loading Bar Demo](https://codepen.io/rgopi2win/pe
 ### Moving glass
 
 [Moving glass demo](https://codepen.io/rgopi2win/pen/OoWwWj?editors=1100)
+
+### Text Animation
+
+[Demo](https://codepen.io/rgopi2win/pen/vzygqj?editors=1100)
