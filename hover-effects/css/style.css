@@ -19,22 +19,27 @@ body {
 .frames {
     margin: 10rem auto;
     display: grid;
-    grid-template-rows: repeat(2, minmax(min-content, 42vh));
+    grid-template-rows: repeat(2, minmax(min-content, 30vh));
     grid-template-columns: 1fr repeat(3, minmax(min-content, 23vw)) 1fr;
     grid-column-gap: 5vw;
     
 }
 
-.picture {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .picture__img {
-    display: block;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
 }
 .picture-one {
     grid-column: 2 / 3;
+}
+
+.picture-two {
+    grid-column: 3 / 4;
+}
+
+.picture-three {
+    grid-column: 4 / 5;
 }
