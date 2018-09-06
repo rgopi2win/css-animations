@@ -25,13 +25,40 @@ body {
     
 }
 
+.picture {
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
 
 .picture__img {
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
     width: 100%;
     height: 100%;
-    
     object-fit: cover;
 }
+
+.picture__caption {
+    grid-row: 2 / -1;
+    grid-column: 1 / -1;
+}
+
+.picture__caption-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+}
+
+.picture__caption_description {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.picture__caption {
+    padding: 3rem;
+}
+
 .picture-one {
     grid-column: 2 / 3;
 }
