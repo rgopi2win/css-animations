@@ -19,8 +19,8 @@ body {
 .frames {
     margin: 10rem auto;
     display: grid;
-    grid-template-rows: repeat(2, minmax(min-content, 30vh));
-    grid-template-columns: 1fr repeat(3, minmax(min-content, 23vw)) 1fr;
+    grid-template-rows: repeat(2, minmax(min-content, 33vh));
+    grid-template-columns: 1fr repeat(3, minmax(min-content, 30vw)) 1fr;
     grid-column-gap: 5vw;
     
 }
@@ -47,7 +47,7 @@ body {
 .picture__caption-title {
     font-size: 4rem;
     text-transform: uppercase;
-    letter-spacing: 1.2;
+    letter-spacing: 2px;
 }
 
 .picture__caption_description {
