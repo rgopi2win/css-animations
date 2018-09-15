@@ -2,9 +2,15 @@
 
 ### css-grid
 
-auto-fit will not work, if thr grid-row or grid column is defined.
+auto-fit will not work, if the grid-row or grid column is defined.
+
+concern: auto-fit property helps in responsive design without 
+Using media query.
 
 ### css - transition property 
 
-To get the forward and reverse transition effect, it should be
-Mentioned in the element declaration block not in pseudo element declaration block.
+To get the forward and reverse transition effect, 
+it should be mentioned in the element declaration block 
+notin pseudo element declaration block.
+
+### 
